@@ -1,3 +1,14 @@
 [user]
-	email = barry@hoggard.org
-	name = Barry Hoggard
+  email = barry@hoggard.org
+  name = Barry Hoggard
+[push]
+  default = current
+[core]
+  excludesfile = ~/.gitignore
+[pager]
+  branch = false
+[pull]
+  rebase = false
+[init]
+  defaultBranch = main
+
